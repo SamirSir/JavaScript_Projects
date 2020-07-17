@@ -1,0 +1,42 @@
+/* General Purpose: TO change the font style */
+.through-line{
+	text-decoration: line-through;
+	font-size: bolder;
+}
+.underline{
+	font-weight: bolder;
+}
+
+.hide{
+	display: none;
+	/*visibility: hidden;*/
+}
+
+div{
+	border: 1px solid;
+	padding: 1em;
+	margin: 1em;
+}
+img{
+	height: 200px;
+	width: 200px;
+}
+#sum{
+	border: 1px solid;
+	height: 2em;
+	width: 40vw;
+}
+
+
+/* Css Basically for sports logic  */
+/* Basically for label to edit by clicking */
+
+ol li input{
+	display: none;
+}
+ol li.edit span{
+	display: none;
+}
+ol li.edit input{
+	display: initial;
+}

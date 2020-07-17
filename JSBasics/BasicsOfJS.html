@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>JS Basics</title>
+</head>
+
+<body>
+	<p>This is Shame</p>
+<!-- DOM for list : overview for sibiling, parent, next, prev, etc -->
+	<h3>Nested List demo through vehicles<br>
+	click or hover the folowing links</h3>
+	<div id="list-dom">
+		<ol class="vehicle">
+			<!-- <li id="water-vehicle">ship</li>
+			<li id="air-vehicle">
+				<ol>
+					<li>Aeroplane</li>
+					<li>Helicopter</li>
+					<li>Jet Palne</li>
+					<li>Rocket</li>
+				</ol>
+			</li> -->
+			<li id="land-vehicle">
+				<ol>
+					<li>Bus</li>
+					<li class="special">Car</li>
+					<li class="bike">Bike</li>
+					<li>Train</li>
+				</ol>
+			</li>
+		</ol>
+	</div>
+	<!-- button Paragraph relation demo -->
+	<h3>Button paragraph relation demo</h3>
+	<div>
+		<div id="button">
+			<button id="button1" name="par-button" data-p="par1">Button1</button>
+			<button id="button2" name="par-button" data-p="par2">Button2</button>
+			<button id="button3" name="par-button" data-p="par3">Button3</button>
+		</div>
+		<div id="paragraph">
+			<p id="par1">First paragraph is awesome</p>
+			<p id="par2">Second paragraph is awesome</p>
+			<p id="par3">Third paragraph is awesome</p>
+		</div>
+	</div>
+
+<!-- second level of practice for shortcut code management -->
+	<div id="jqueryV2">
+		<div class="jumborton">
+			<h3>Shortcut modification V2</h3>
+			<button id="btn1" name="panel-button" data-panelId="panel1">Button1</button>
+			<button id="btn2" name="panel-button" data-panelId="panel2">Button2</button>
+			<button id="btn3" name="panel-button" data-panelId="panel3">Button3</button>
+			<button id="btn4" name="panel-button" data-panelId="panel4">Button4</button>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				<div id="panel1" class="panel panel-primary">
+					<div class="panel-heading">
+						Panel1
+					</div>
+					<div class="panel-body">
+						Content
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-3">
+				<div id="panel2" class="panel panel-primary">
+					<div class="panel-heading">
+						Panel2
+					</div>
+					<div class="panel-body">
+						Content
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-3">
+				<div id="panel3" class="panel panel-primary">
+					<div class="panel-heading">
+						Panel3
+					</div>
+					<div class="panel-body">
+						Content
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-3">
+				<div id="panel4" class="panel panel-primary">
+					<div class="panel-heading">
+						Panel4
+					</div>
+					<div class="panel-body">
+						Content
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div><hr>
+<!-- first div for some  jquery magic introduction -->
+	<div id="jqueryV1">
+		<div class="jumborton">
+			<h3>Initial introduction to jquery</h3>
+			<button id="btn1">Button1</button>
+			<button id="btn2">Button2</button>
+			<button id="btn3">Button3</button>
+			<button id="btn4">Button4</button>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				<div id="panel1" class="panel panel-primary">
+					<div class="panel-heading">
+						Panel1
+					</div>
+					<div class="panel-body">
+						Content
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-3">
+				<div id="panel2" class="panel panel-primary">
+					<div class="panel-heading">
+						Panel2
+					</div>
+					<div class="panel-body">
+						Content
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-3">
+				<div id="panel3" class="panel panel-primary">
+					<div class="panel-heading">
+						Panel3
+					</div>
+					<div class="panel-body">
+						Content
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-3">
+				<div id="panel4" class="panel panel-primary">
+					<div class="panel-heading">
+						Panel4
+					</div>
+					<div class="panel-body">
+						Content
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+
+<script src="jquery-3.5.1.js" type="text/javascript"></script>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src ="jqueryBasics.js"></script>
+
+</body>
+</html>

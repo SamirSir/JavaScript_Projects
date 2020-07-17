@@ -1,0 +1,32 @@
+
+.panel{
+	border: 1px solid;
+	border-radius: 5px;
+	box-shadow: 5px 5px grey;
+	margin: 5px;
+	width: 10vw;
+	text-align: center;
+}
+.panel-heading{
+	background-color: blue;
+	color: white;
+
+}
+.jumborton{
+	background-color: lightgrey;
+}
+p{
+	font-weight: bold;
+	background-color: lightblue;
+}
+body{
+	margin-left: 1em;
+}
+
+.special{
+	color: blue;
+}
+.awesome{
+	color: purple;
+	font-weight: bold;
+}
